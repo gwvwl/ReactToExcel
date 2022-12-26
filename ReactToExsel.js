@@ -10,6 +10,22 @@ const columns = [
   { header: "status", key: "status" },
   { header: "visits", key: "visits" },
 ];
+// example data
+// const data = [
+//   {
+//     firstName: 'Kylie',
+//     lastName: 'James',
+//     purchasePrice: 1000,
+//     paymentsMade: 900
+//   },
+//   {
+//     firstName: 'Harry',
+//     lastName: 'Peake',
+//     purchasePrice: 1000,
+//     paymentsMade: 1000
+//   }
+// ];
+
 
 export const saveExcel = async (data) => {
   const workSheetName = "Worksheet-1";
