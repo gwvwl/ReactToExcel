@@ -1,4 +1,3 @@
-import React from "react";
 import Excel from "exceljs";
 import { saveAs } from "file-saver";
 
