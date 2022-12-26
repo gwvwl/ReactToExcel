@@ -1,7 +1,7 @@
 Libriares : react, file-saver, exceljs.
 use : <button
 onClick={() => {
-saveExcel(filteredData());
+saveExcel(data);
 }} >
 Excel
 </button>
